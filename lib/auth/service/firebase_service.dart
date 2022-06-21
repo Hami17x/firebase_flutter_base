@@ -32,8 +32,8 @@ class FirebaseService {
       await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
       return true;
     } on FirebaseAuthException catch (e) {
-      return false;
       print(e);
+      return false;
     }
   }
 

@@ -1,7 +1,8 @@
-import 'package:firebase_flutter/auth/service/service.dart';
 import 'package:firebase_flutter/auth/view/reset_password.dart';
 import 'package:firebase_flutter/auth/view/signUp_page.dart';
 import 'package:flutter/material.dart';
+
+import '../service/firebase_service.dart';
 
 class SigninPage extends StatefulWidget {
   const SigninPage({Key? key}) : super(key: key);
